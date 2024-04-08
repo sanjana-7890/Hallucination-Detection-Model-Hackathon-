@@ -7,9 +7,12 @@ Welcome to the Hallucination Detection model repository for Contextual Question 
 # Dataset Overview
 The dataset used for training and evaluation contains 400 samples, each comprising the following features:
 
-Context: The context or passage in which the question is asked.
-Question: The question asked based on the given context.
-Answer: The model's predicted answer for the given question.
+Context: The context or passage in which the question is asked.  
+
+Question: The question asked based on the given context.  
+
+Answer: The model's predicted answer for the given question.  
+
 Hallucination Score: A binary score indicating whether the model's answer is considered hallucinated or not, with values of either 0 or 1.
 
 # Model Architecture
@@ -18,6 +21,17 @@ The model architecture is based on a sequential RNN, specifically a subtype of L
 # Evaluation Metrics
 To assess the performance of the model, the following evaluation metrics are utilized:
 
-Accuracy: Measures the overall correctness of the model's predictions.
-AUC-ROC (Area Under the Receiver Operating Characteristic Curve): Evaluates the model's ability to discriminate between hallucinated and non-hallucinated answers across different thresholds.
-F1 Score: Provides a balance between precision and recall, particularly useful for imbalanced datasets.
+Accuracy: Measures the overall correctness of the model's predictions.  
+
+AUC-ROC (Area Under the Receiver Operating Characteristic Curve): Evaluates the model's ability to discriminate between hallucinated and non-hallucinated answers across different thresholds.  
+
+F1 Score: Provides a balance between precision and recall, particularly useful for imbalanced datasets.  
+
+# Contributing
+Contributions to the project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Acknowledgments
+Special thanks to the creators of the dataset used in this project, as well as the open-source community for providing valuable resources and inspiration.
